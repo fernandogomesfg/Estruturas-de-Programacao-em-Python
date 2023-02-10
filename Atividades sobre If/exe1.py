@@ -4,9 +4,9 @@
 saldo = int(input("Digite o seu saldo: "))
 divida = int(input("Quanto voce deve? "))
 
-saldoActual = saldo - divida
+saldoActual = float(saldo - divida)
 if (saldoActual > 0 ):
-    print("Voce tem um saldo positivo!")
+    print("Voce tem um saldo positivo!" ,saldoActual)
 else:
-    print("Voce tem um saldo negativo")
+    print("Voce tem um saldo negativo" ,saldoActual)
 
